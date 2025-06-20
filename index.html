@@ -129,9 +129,7 @@
             <li>脉冲式分泌（受GnRH调控）</li>
             <li>女性月经中期出现爆发式高峰</li>
             <li>男性呈稳定基础分泌</li>
-          </ul>
-        </li>
-        <li><span class="core-point">最新发现（2024）：</span>下丘脑KNDy神经元直接调控LH脉冲</li>
+         
       </ul>
     </div>
 
@@ -255,7 +253,10 @@
     </ol>
   </main>
   <footer>
-    © 2025 黄体生成素健康科普 | 医学内容仅供参考 
+    © <span id="year"></span> 黄体生成素健康科普 | 医学内容仅供参考 
   </footer>
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
